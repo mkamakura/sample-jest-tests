@@ -11,9 +11,11 @@
     "jest": "^22.1.4",
     "jest-environment-jsdom-global": "^1.0.3",
     "power-assert": "^1.4.4",
+    "prettier": "^1.10.2",
     "rewire": "^3.0.2"
   },
   "scripts": {
+    "fmt": "prettier --no-semi --write \"+(src|__tests__)/**/*.js\"",
     "test": "jest"
   },
   "babel": {
