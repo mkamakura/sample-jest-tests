@@ -9,6 +9,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-power-assert": "^2.0.0",
     "jest": "^22.1.4",
+    "jest-environment-jsdom-global": "^1.0.3",
     "power-assert": "^1.4.4",
     "rewire": "^3.0.2"
   },
@@ -20,5 +21,8 @@
       "power-assert",
       "env"
     ]
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-jsdom-global"
   }
 }
